@@ -1,7 +1,34 @@
 import designImage from "../assets/projects/design.png";
 import ventaImage from "../assets/projects/mostrar-ventass.png";
+import academiaImage from "../assets/projects/inicioAlumno.png";
 
 const projects = [
+
+
+  {
+    id: 3,
+    title: "Aula Virtual - Academia de Inglés",
+    type: "Aplicación Web | Proyecto Real",
+    image: academiaImage,
+
+    description:
+      "Plataforma educativa desarrollada para una academia de inglés. Permite gestionar alumnos, cursos, temas y recursos didácticos mediante un sistema de autenticación y autorización por roles. Aplicación desplegada en un servidor VPS.",
+
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "Spring Data JPA",
+      "Hibernate",
+      "MySQL",
+      "Thymeleaf",
+      "Docker",
+      "Ubuntu"
+    ],
+
+    repositoryUrl: ""
+  },
+
   {
     id: 1,
 

@@ -32,14 +32,16 @@ function ProjectCard({ project }) {
           ))}
         </ul>
 
+        {project.repositoryUrl && (
         <a
-            className="project-link"
-            href={project.repositoryUrl}
-            target="_blank"
-            rel="noreferrer"
-            >
-            Ver en GitHub
+          className="project-link"
+          href={project.repositoryUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ver en GitHub
         </a>
+      )}
       </div>
     </article>
   )
